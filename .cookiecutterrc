@@ -1,0 +1,15 @@
+plugin_title: CustomTempSensors
+plugin_identifier: customtempsensors
+plugin_package: octoprint_customtempsensors
+plugin_name: OctoPrint-CustomTempSensors
+repo_name: OctoPrint-CustomTempSensors
+repo_branch: main
+full_name: Kestin Goforth
+email: kgoforth1503@gmail.com
+github_username: kforth
+plugin_version: 0.1.0
+plugin_description: Show more temperature sensors!
+plugin_license: AGPLv3
+plugin_homepage: https://github.com/kforth/OctoPrint-CustomTempSensors
+plugin_source: https://github.com/kforth/OctoPrint-CustomTempSensors
+plugin_installurl: https://github.com/kforth/OctoPrint-CustomTempSensors/archive/main.zip

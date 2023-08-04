@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_customtempsensors/templates *
+recursive-include octoprint_customtempsensors/translations *
+recursive-include octoprint_customtempsensors/static *

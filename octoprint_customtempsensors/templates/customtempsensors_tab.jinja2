@@ -1,0 +1,18 @@
+<table id="custom-temperature-table" class="table table-bordered table-hover">
+  <tr>
+    <th class="temperature_tool"></th>
+    <th class="temperature_actual" title="{{ _('Current actual temperature as reported by your printer')|edq }}">{{
+      _('Actual') }}</th>
+    <th class="temperature_target" title="{{ _('Current target temperature as reported by your printer')|edq }}">{{
+      _('Target') }}</th>
+  </tr>
+  <tr data-bind="foreach: $root.sensors">
+    <th class="temperature_tool" data-bind="text: $data.name, attr: {title: $data.name}"></th>
+    <td class="temperature_actual"
+      data-bind="html: $root.formatTemperature($data.actual()), attr: {title: $root.formatTemperature($data.actual(), undefined, undefined, true)}">
+    </td>
+    <td class="temperature_target"
+      data-bind="html: $root.formatTemperature($data.target()), attr: {title: $root.formatTemperature($data.target(), undefined, undefined, true)}">
+    </td>
+  </tr>
+</table>
